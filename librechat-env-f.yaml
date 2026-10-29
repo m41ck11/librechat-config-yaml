@@ -3426,3 +3426,6 @@ endpoints:
       summaryModel: "grok-beta"
       forcePrompt: false
       modelDisplayLabel: "Grok"
+memory:
+  disabled: false
+  personalize: true
