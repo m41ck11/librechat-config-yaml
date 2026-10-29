@@ -3431,7 +3431,7 @@ memory:
   personalize: true
   agent:
     enabled: true
-    provider: openai
+    provider: openAI
     model: gpt-4.1-mini
     instructions: |
       Maintain a concise, useful memory for this user across conversations.
