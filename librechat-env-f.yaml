@@ -3429,3 +3429,19 @@ endpoints:
 memory:
   disabled: false
   personalize: true
+  agent:
+    enabled: true
+    provider: openai
+    model: gpt-4.1-mini
+    instructions: |
+      Maintain a concise, useful memory for this user across conversations.
+      Proactively save or update information that is likely to remain useful,
+      such as stable preferences, ongoing projects, important plans, and
+      relevant personal context. Do not save every detail or temporary facts.
+      Prefer updating an existing memory rather than creating duplicates.
+      Do not save passwords, API keys, recovery codes, payment details, or
+      similarly sensitive information. Do not save sensitive personal
+      information or private details about other people unless the user
+      explicitly asks you to remember them. Never invent facts; preserve
+      uncertainty, and remove or correct outdated information when the user
+      clarifies it.
